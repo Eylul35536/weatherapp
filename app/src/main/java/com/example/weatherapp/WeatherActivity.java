@@ -27,7 +27,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class WeatherActivity extends AppCompatActivity {
 
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/";
-    private static final String API_KEY = "cdae4e66fb7d0e63c799f1bf8fae5a53";
+    private static final String API_KEY = BuildConfig.OPENWEATHER_API_KEY;
 
     private TextView cityNameText, tempText, humidityText, windSpeedText;
     private ImageView weatherIcon;
